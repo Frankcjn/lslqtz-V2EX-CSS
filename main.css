@@ -21,7 +21,8 @@ a.top:hover {
 body, #Top, #Bottom {
 	background: #2b2f3e;
 }
-#search-container, #DigitalOcean {
+/*#search-container, #DigitalOcean*/
+#DigitalOcean {
 	display: none;
 }
 a.top:link, a.top:visited {
