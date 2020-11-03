@@ -1,0 +1,84 @@
+.box {
+	box-shadow: none;
+}
+#Logo {
+	filter: invert(100%);
+}
+#Wrapper {
+	/*background: #fafafa;*/
+	background: #505770;
+}
+.item:hover {
+	background: rgba(238, 238, 238, 0.35);
+}
+a.top:hover {
+	color: #99a !important;
+	text-decoration: none;
+}
+.topic_buttons {
+	background: #eee;
+}
+body, #Top, #Bottom {
+	background: #2b2f3e;
+}
+#Search, #DigitalOcean {
+	display: none;
+}
+a.top:link, a.top:visited {
+	color: #fff;
+}
+@media (prefers-color-scheme:dark) {
+	:root {
+		--box-background-color: #000;
+		--box-background-alt-color: #000;
+		--box-background-hover-color: #333;
+	}
+	.subtle, .outdated {
+		border-left-color: blue;
+	}
+	a.node:hover {
+		background: #000 !important;
+	}
+	a.thank:hover {
+		background: green;
+	}
+	.topic_content a {
+		color: #999 !important;
+	}
+	.CodeMirror-cursor {
+		border-left: 1px solid #fff;
+	}
+	.normal.button:hover:enabled {
+		border: none !important;
+	}
+	a.tab:active, a.tab:link, a.tab:visited {
+		color: #999;
+	}
+	.box, .normal.button, .normal_page_right.button {
+		border: none;
+		box-shadow: 0 0 10px #fff;
+		text-shadow: none !important;
+	}
+	.disable_now, .active_now, .hover_now {
+		background: #333 !important;
+		color: #fff !important;
+	}
+	.tag:hover, .normal.button:hover:enabled, .page_normal:hover, .page_current:hover {
+		background: #99a !important;
+	}
+	.select2-container--default .select2-selection--single .select2-selection__rendered {
+		line-height: 26px;
+	}
+	pre, .no, .dock_area, .outdated, .payload, .grid_item, div.node:hover, table.data td.h, table.data th.h, .sidebar_compliance, .social_label:link, .page_current, .social_label:visited, .tag:link, .tag:visited, a.node:active, a.node:link, a.node:visited, .balance_area, a.balance_area:link, a.balance_area:visited, .dropdown-menu li:hover, .dropdown-menu .active, .dropdown-menu, .CodeMirror-gutters, .active:hover, .markdown_body table tr:nth-child(2n) {
+		background: #333;
+		color: #fff;
+	}
+	h1, .hljs, body, a, a:active, a:link, a:visited,a.tb:active, a.tb:link, a.tb:visited, a.topic-link:active, a.topic-link:link, a.topic-link:hover, .topic_content, .reply_content, #reply_content, .normal.button, .balance_area, 	table.data td.h, table.data th.h, a.balance_area:link, a.balance_area:visited, a.black_alt:link, a.black_alt:visited, .normal.button:hover:enabled {
+		color: #fff;
+		text-shadow: none;
+	}
+	.alt, .msl, .subtle, .msl:focus, input, textarea, select, .box, .thanked, .cell_ops, .topic_buttons, .normal.button, .CodeMirror, .normal_page_right.button, .select2-container--default .select2-selection--single .select2-selection__rendered, .select2-dropdown, .settings.privacy .privacy-settings-form>div:nth-of-type(2n), .settings.block .block-stat:nth-of-type(2n), #Navcol, .page_normal:active, .page_normal:link, .page_normal:visited, .page_input, .dropdown-menu, .markdown_body table tr {
+		background: #000;
+		color: #fff;
+	}
+}
