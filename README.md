@@ -1,4 +1,6 @@
 # lslqtz-V2EX-CSS
+[Dark mode support table](https://caniuse.com/prefers-color-scheme)
+
 ## Preview
 ![HomePage Light](preview/A62DA311-2D91-43E1-BE56-8ACF79CD8F23.png)
 ![HomePage Dark](preview/D2CA81A7-5901-4C2F-9359-E15DE20D9448.png)
