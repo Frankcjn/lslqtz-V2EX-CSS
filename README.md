@@ -13,3 +13,15 @@
 
 ### Thread Dark
 ![Thread Dark](preview/D5C24275-A28D-4E92-91BA-D016A1D83DC4.png)
+
+### Create thread Light
+![Create thread Light](preview/31D972E8-7D3B-46A8-BA4E-DD9526F0B4C9.png)
+
+### Create thread Dark
+![Create thread Dark](preview/0E7CFEB4-544C-41D0-A651-6083F7597D15.png)
+
+### Account balance Light
+![Account balance Light](preview/DB7A8EF1-69CE-46DE-AA55-A7653E0F0C3E.png)
+
+### Account balance Dark
+![Account balance Dark](preview/8C8EA8AE-56BC-421E-9775-E377B5F2AA3A.png)
